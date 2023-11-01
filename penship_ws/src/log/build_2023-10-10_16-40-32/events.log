@@ -1,0 +1,55 @@
+[0.000000] (-) TimerEvent: {}
+[0.000300] (penship_vrx) JobQueued: {'identifier': 'penship_vrx', 'dependencies': OrderedDict()}
+[0.000584] (penship_vrx) JobStarted: {'identifier': 'penship_vrx'}
+[0.099718] (-) TimerEvent: {}
+[0.200029] (-) TimerEvent: {}
+[0.300374] (-) TimerEvent: {}
+[0.400717] (-) TimerEvent: {}
+[0.500988] (-) TimerEvent: {}
+[0.601232] (-) TimerEvent: {}
+[0.701486] (-) TimerEvent: {}
+[0.792144] (penship_vrx) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/penship_vrx', 'build', '--build-base', '/home/syauqibilfaqih/penship_ws/src/build/penship_vrx/build', 'install', '--record', '/home/syauqibilfaqih/penship_ws/src/build/penship_vrx/install.log', '--single-version-externally-managed'], 'cwd': '/home/syauqibilfaqih/penship_ws/src/penship_vrx', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'syauqibilfaqih', 'LC_TIME': 'id_ID.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/syauqibilfaqih', 'OLDPWD': '/home/syauqibilfaqih/penship_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'id_ID.UTF-8', 'SYSTEMD_EXEC_PID': '2840', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'syauqibilfaqih', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'syauqibilfaqih', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/syauqibilfaqih/.local/bin:/home/syauqibilfaqih/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/syauqibilfaqih-Lenovo-ideapad-320S-13IKB:@/tmp/.ICE-unix/2641,unix/syauqibilfaqih-Lenovo-ideapad-320S-13IKB:/tmp/.ICE-unix/2641', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'id_ID.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/275d7bf5_ad9b_48b9_9dc1_0163bf975b4c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'id_ID.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.VASOC2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.126', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'id_ID.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'id_ID.UTF-8', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/syauqibilfaqih/penship_ws/src/build/penship_vrx', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/syauqibilfaqih/penship_ws/src/build/penship_vrx/prefix_override:/home/syauqibilfaqih/penship_ws/src/install/penship_vrx/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'id_ID.UTF-8', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.801574] (-) TimerEvent: {}
+[0.901833] (-) TimerEvent: {}
+[1.002104] (-) TimerEvent: {}
+[1.084193] (penship_vrx) StdoutLine: {'line': b'running egg_info\n'}
+[1.084871] (penship_vrx) StdoutLine: {'line': b'creating ../build/penship_vrx/penship_vrx.egg-info\n'}
+[1.085114] (penship_vrx) StdoutLine: {'line': b'writing ../build/penship_vrx/penship_vrx.egg-info/PKG-INFO\n'}
+[1.085484] (penship_vrx) StdoutLine: {'line': b'writing dependency_links to ../build/penship_vrx/penship_vrx.egg-info/dependency_links.txt\n'}
+[1.085700] (penship_vrx) StdoutLine: {'line': b'writing entry points to ../build/penship_vrx/penship_vrx.egg-info/entry_points.txt\n'}
+[1.085860] (penship_vrx) StdoutLine: {'line': b'writing requirements to ../build/penship_vrx/penship_vrx.egg-info/requires.txt\n'}
+[1.086018] (penship_vrx) StdoutLine: {'line': b'writing top-level names to ../build/penship_vrx/penship_vrx.egg-info/top_level.txt\n'}
+[1.086317] (penship_vrx) StdoutLine: {'line': b"writing manifest file '../build/penship_vrx/penship_vrx.egg-info/SOURCES.txt'\n"}
+[1.088605] (penship_vrx) StdoutLine: {'line': b"reading manifest file '../build/penship_vrx/penship_vrx.egg-info/SOURCES.txt'\n"}
+[1.089477] (penship_vrx) StdoutLine: {'line': b"writing manifest file '../build/penship_vrx/penship_vrx.egg-info/SOURCES.txt'\n"}
+[1.089708] (penship_vrx) StdoutLine: {'line': b'running build\n'}
+[1.089822] (penship_vrx) StdoutLine: {'line': b'running build_py\n'}
+[1.089998] (penship_vrx) StdoutLine: {'line': b'creating /home/syauqibilfaqih/penship_ws/src/build/penship_vrx/build\n'}
+[1.090256] (penship_vrx) StdoutLine: {'line': b'creating /home/syauqibilfaqih/penship_ws/src/build/penship_vrx/build/lib\n'}
+[1.090333] (penship_vrx) StdoutLine: {'line': b'creating /home/syauqibilfaqih/penship_ws/src/build/penship_vrx/build/lib/penship_vrx\n'}
+[1.090413] (penship_vrx) StdoutLine: {'line': b'copying penship_vrx/penship_stationkeeping.py -> /home/syauqibilfaqih/penship_ws/src/build/penship_vrx/build/lib/penship_vrx\n'}
+[1.090482] (penship_vrx) StdoutLine: {'line': b'copying penship_vrx/__init__.py -> /home/syauqibilfaqih/penship_ws/src/build/penship_vrx/build/lib/penship_vrx\n'}
+[1.090598] (penship_vrx) StdoutLine: {'line': b'running install\n'}
+[1.090753] (penship_vrx) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.090878] (penship_vrx) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.091026] (penship_vrx) StdoutLine: {'line': b'running install_lib\n'}
+[1.091941] (penship_vrx) StdoutLine: {'line': b'creating /home/syauqibilfaqih/penship_ws/src/install/penship_vrx/lib/python3.10/site-packages/penship_vrx\n'}
+[1.092109] (penship_vrx) StdoutLine: {'line': b'copying /home/syauqibilfaqih/penship_ws/src/build/penship_vrx/build/lib/penship_vrx/penship_stationkeeping.py -> /home/syauqibilfaqih/penship_ws/src/install/penship_vrx/lib/python3.10/site-packages/penship_vrx\n'}
+[1.092244] (penship_vrx) StdoutLine: {'line': b'copying /home/syauqibilfaqih/penship_ws/src/build/penship_vrx/build/lib/penship_vrx/__init__.py -> /home/syauqibilfaqih/penship_ws/src/install/penship_vrx/lib/python3.10/site-packages/penship_vrx\n'}
+[1.094209] (penship_vrx) StdoutLine: {'line': b'byte-compiling /home/syauqibilfaqih/penship_ws/src/install/penship_vrx/lib/python3.10/site-packages/penship_vrx/penship_stationkeeping.py to penship_stationkeeping.cpython-310.pyc\n'}
+[1.095603] (penship_vrx) StdoutLine: {'line': b'byte-compiling /home/syauqibilfaqih/penship_ws/src/install/penship_vrx/lib/python3.10/site-packages/penship_vrx/__init__.py to __init__.cpython-310.pyc\n'}
+[1.095830] (penship_vrx) StdoutLine: {'line': b'running install_data\n'}
+[1.096338] (penship_vrx) StdoutLine: {'line': b'creating /home/syauqibilfaqih/penship_ws/src/install/penship_vrx/share/ament_index\n'}
+[1.096551] (penship_vrx) StdoutLine: {'line': b'creating /home/syauqibilfaqih/penship_ws/src/install/penship_vrx/share/ament_index/resource_index\n'}
+[1.096708] (penship_vrx) StdoutLine: {'line': b'creating /home/syauqibilfaqih/penship_ws/src/install/penship_vrx/share/ament_index/resource_index/packages\n'}
+[1.096814] (penship_vrx) StdoutLine: {'line': b'copying resource/penship_vrx -> /home/syauqibilfaqih/penship_ws/src/install/penship_vrx/share/ament_index/resource_index/packages\n'}
+[1.096916] (penship_vrx) StdoutLine: {'line': b'copying package.xml -> /home/syauqibilfaqih/penship_ws/src/install/penship_vrx/share/penship_vrx\n'}
+[1.097017] (penship_vrx) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.098668] (penship_vrx) StdoutLine: {'line': b'Copying ../build/penship_vrx/penship_vrx.egg-info to /home/syauqibilfaqih/penship_ws/src/install/penship_vrx/lib/python3.10/site-packages/penship_vrx-0.0.0-py3.10.egg-info\n'}
+[1.099520] (penship_vrx) StdoutLine: {'line': b'running install_scripts\n'}
+[1.102186] (-) TimerEvent: {}
+[1.123504] (penship_vrx) StdoutLine: {'line': b'Installing stationkeeping script to /home/syauqibilfaqih/penship_ws/src/install/penship_vrx/lib/penship_vrx\n'}
+[1.124060] (penship_vrx) StdoutLine: {'line': b"writing list of installed files to '/home/syauqibilfaqih/penship_ws/src/build/penship_vrx/install.log'\n"}
+[1.158511] (penship_vrx) CommandEnded: {'returncode': 0}
+[1.177383] (penship_vrx) JobEnded: {'identifier': 'penship_vrx', 'rc': 0}
+[1.178117] (-) EventReactorShutdown: {}

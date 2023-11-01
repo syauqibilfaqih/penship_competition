@@ -1,0 +1,5 @@
+[console_scripts]
+scandockdeliver = penship_vrx.penship_scandockdeliver:main
+stationkeeping = penship_vrx.penship_stationkeeping:main
+teleopkey = penship_vrx.penship_teleopkey:main
+

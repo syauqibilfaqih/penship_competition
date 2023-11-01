@@ -1,0 +1,113 @@
+[0.451s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.452s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f8b15f9dd50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8b167b2b30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8b167b2b30>>)
+[0.484s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.484s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.484s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.484s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.484s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.484s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.484s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/syauqibilfaqih/penship_ws/src'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(penship_vrx) by extensions ['ignore', 'ignore_ament_install']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(penship_vrx) by extension 'ignore'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(penship_vrx) by extension 'ignore_ament_install'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(penship_vrx) by extensions ['colcon_pkg']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(penship_vrx) by extension 'colcon_pkg'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(penship_vrx) by extensions ['colcon_meta']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(penship_vrx) by extension 'colcon_meta'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(penship_vrx) by extensions ['ros']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(penship_vrx) by extension 'ros'
+[0.503s] DEBUG:colcon.colcon_core.package_identification:Package 'penship_vrx' with type 'ros.ament_python' and name 'penship_vrx'
+[0.503s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.503s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.503s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.503s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.503s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.537s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.537s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.541s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/syauqibilfaqih/penship_ws/src/install
+[0.544s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 288 installed packages in /opt/ros/humble
+[0.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'penship_vrx' build argument 'cmake_args' from command line to 'None'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'penship_vrx' build argument 'cmake_target' from command line to 'None'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'penship_vrx' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'penship_vrx' build argument 'cmake_clean_cache' from command line to 'False'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'penship_vrx' build argument 'cmake_clean_first' from command line to 'False'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'penship_vrx' build argument 'cmake_force_configure' from command line to 'False'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'penship_vrx' build argument 'ament_cmake_args' from command line to 'None'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'penship_vrx' build argument 'catkin_cmake_args' from command line to 'None'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'penship_vrx' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.619s] DEBUG:colcon.colcon_core.verb:Building package 'penship_vrx' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/syauqibilfaqih/penship_ws/src/build/penship_vrx', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/syauqibilfaqih/penship_ws/src/install/penship_vrx', 'merge_install': False, 'path': '/home/syauqibilfaqih/penship_ws/src/penship_vrx', 'symlink_install': False, 'test_result_base': None}
+[0.620s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.624s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.624s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/syauqibilfaqih/penship_ws/src/penship_vrx' with build type 'ament_python'
+[0.624s] Level 1:colcon.colcon_core.shell:create_environment_hook('penship_vrx', 'ament_prefix_path')
+[0.634s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/syauqibilfaqih/penship_ws/src/install/penship_vrx/share/penship_vrx/hook/ament_prefix_path.ps1'
+[0.635s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/syauqibilfaqih/penship_ws/src/install/penship_vrx/share/penship_vrx/hook/ament_prefix_path.dsv'
+[0.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/syauqibilfaqih/penship_ws/src/install/penship_vrx/share/penship_vrx/hook/ament_prefix_path.sh'
+[0.638s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.638s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.012s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/syauqibilfaqih/penship_ws/src/penship_vrx'
+[1.014s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.014s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.497s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/syauqibilfaqih/penship_ws/src/penship_vrx': PYTHONPATH=/home/syauqibilfaqih/penship_ws/src/build/penship_vrx/prefix_override:/home/syauqibilfaqih/penship_ws/src/install/penship_vrx/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/penship_vrx build --build-base /home/syauqibilfaqih/penship_ws/src/build/penship_vrx/build install --record /home/syauqibilfaqih/penship_ws/src/build/penship_vrx/install.log --single-version-externally-managed
+[1.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/syauqibilfaqih/penship_ws/src/penship_vrx' returned '0': PYTHONPATH=/home/syauqibilfaqih/penship_ws/src/build/penship_vrx/prefix_override:/home/syauqibilfaqih/penship_ws/src/install/penship_vrx/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/penship_vrx build --build-base /home/syauqibilfaqih/penship_ws/src/build/penship_vrx/build install --record /home/syauqibilfaqih/penship_ws/src/build/penship_vrx/install.log --single-version-externally-managed
+[1.911s] Level 1:colcon.colcon_core.environment:checking '/home/syauqibilfaqih/penship_ws/src/install/penship_vrx' for CMake module files
+[1.912s] Level 1:colcon.colcon_core.environment:checking '/home/syauqibilfaqih/penship_ws/src/install/penship_vrx' for CMake config files
+[1.913s] Level 1:colcon.colcon_core.environment:checking '/home/syauqibilfaqih/penship_ws/src/install/penship_vrx/lib'
+[1.913s] Level 1:colcon.colcon_core.environment:checking '/home/syauqibilfaqih/penship_ws/src/install/penship_vrx/bin'
+[1.913s] Level 1:colcon.colcon_core.environment:checking '/home/syauqibilfaqih/penship_ws/src/install/penship_vrx/lib/pkgconfig/penship_vrx.pc'
+[1.914s] Level 1:colcon.colcon_core.environment:checking '/home/syauqibilfaqih/penship_ws/src/install/penship_vrx/lib/python3.10/site-packages'
+[1.914s] Level 1:colcon.colcon_core.shell:create_environment_hook('penship_vrx', 'pythonpath')
+[1.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/syauqibilfaqih/penship_ws/src/install/penship_vrx/share/penship_vrx/hook/pythonpath.ps1'
+[1.916s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/syauqibilfaqih/penship_ws/src/install/penship_vrx/share/penship_vrx/hook/pythonpath.dsv'
+[1.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/syauqibilfaqih/penship_ws/src/install/penship_vrx/share/penship_vrx/hook/pythonpath.sh'
+[1.916s] Level 1:colcon.colcon_core.environment:checking '/home/syauqibilfaqih/penship_ws/src/install/penship_vrx/bin'
+[1.917s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(penship_vrx)
+[1.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/syauqibilfaqih/penship_ws/src/install/penship_vrx/share/penship_vrx/package.ps1'
+[1.919s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/syauqibilfaqih/penship_ws/src/install/penship_vrx/share/penship_vrx/package.dsv'
+[1.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/syauqibilfaqih/penship_ws/src/install/penship_vrx/share/penship_vrx/package.sh'
+[1.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/syauqibilfaqih/penship_ws/src/install/penship_vrx/share/penship_vrx/package.bash'
+[1.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/syauqibilfaqih/penship_ws/src/install/penship_vrx/share/penship_vrx/package.zsh'
+[1.922s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/syauqibilfaqih/penship_ws/src/install/penship_vrx/share/colcon-core/packages/penship_vrx)
+[1.922s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.922s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.922s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.922s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.931s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.931s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.931s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.944s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.947s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/syauqibilfaqih/penship_ws/src/install/local_setup.ps1'
+[1.951s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/syauqibilfaqih/penship_ws/src/install/_local_setup_util_ps1.py'
+[1.955s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/syauqibilfaqih/penship_ws/src/install/setup.ps1'
+[1.958s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/syauqibilfaqih/penship_ws/src/install/local_setup.sh'
+[1.959s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/syauqibilfaqih/penship_ws/src/install/_local_setup_util_sh.py'
+[1.960s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/syauqibilfaqih/penship_ws/src/install/setup.sh'
+[1.964s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/syauqibilfaqih/penship_ws/src/install/local_setup.bash'
+[1.966s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/syauqibilfaqih/penship_ws/src/install/setup.bash'
+[1.968s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/syauqibilfaqih/penship_ws/src/install/local_setup.zsh'
+[1.968s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/syauqibilfaqih/penship_ws/src/install/setup.zsh'

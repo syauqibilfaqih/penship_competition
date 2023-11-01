@@ -1,0 +1,4 @@
+Invoking command in '/home/syauqibilfaqih/vrx_ws/build/vrx_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/syauqibilfaqih/bin/cmake --build /home/syauqibilfaqih/vrx_ws/build/vrx_ros -- -j4 -l4
+Invoked command in '/home/syauqibilfaqih/vrx_ws/build/vrx_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/syauqibilfaqih/bin/cmake --build /home/syauqibilfaqih/vrx_ws/build/vrx_ros -- -j4 -l4
+Invoking command in '/home/syauqibilfaqih/vrx_ws/build/vrx_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/syauqibilfaqih/bin/cmake --install /home/syauqibilfaqih/vrx_ws/build/vrx_ros
+Invoked command in '/home/syauqibilfaqih/vrx_ws/build/vrx_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/syauqibilfaqih/bin/cmake --install /home/syauqibilfaqih/vrx_ws/build/vrx_ros

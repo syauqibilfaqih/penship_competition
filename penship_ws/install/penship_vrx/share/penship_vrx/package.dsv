@@ -1,0 +1,6 @@
+source;share/penship_vrx/hook/pythonpath.ps1
+source;share/penship_vrx/hook/pythonpath.dsv
+source;share/penship_vrx/hook/pythonpath.sh
+source;share/penship_vrx/hook/ament_prefix_path.ps1
+source;share/penship_vrx/hook/ament_prefix_path.dsv
+source;share/penship_vrx/hook/ament_prefix_path.sh

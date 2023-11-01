@@ -1,0 +1,575 @@
+[0.006s] Invoking command in '/home/syauqibilfaqih/vrx_ws/build/vrx_gz': AMENT_PREFIX_PATH=/home/syauqibilfaqih/vrx_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/syauqibilfaqih/vrx_ws/install:/opt/ros/humble /home/syauqibilfaqih/bin/cmake /home/syauqibilfaqih/vrx_ws/src/vrx/vrx_gz -DCMAKE_INSTALL_PREFIX=/home/syauqibilfaqih/vrx_ws/install
+[0.060s] -- The C compiler identification is GNU 11.4.0
+[0.125s] -- The CXX compiler identification is GNU 11.4.0
+[0.131s] -- Detecting C compiler ABI info
+[0.183s] -- Detecting C compiler ABI info - done
+[0.192s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.192s] -- Detecting C compile features
+[0.193s] -- Detecting C compile features - done
+[0.196s] -- Detecting CXX compiler ABI info
+[0.261s] -- Detecting CXX compiler ABI info - done
+[0.273s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.273s] -- Detecting CXX compile features
+[0.274s] -- Detecting CXX compile features - done
+[0.277s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.451s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.576s] -- Looking for gz-sim7 -- found version 7.5.0
+[0.587s] -- Searching for dependencies of gz-sim7
+[0.590s] -- Looking for sdformat13 -- found version 13.6.0
+[0.591s] -- Searching for dependencies of sdformat13
+[0.597s] -- Checking for module 'tinyxml2'
+[0.610s] --   Found tinyxml2, version 9.0.0
+[0.658s] -- Looking for gz-math7 -- found version 7.3.0
+[0.658s] -- Searching for dependencies of gz-math7
+[0.661s] -- Looking for gz-utils2 -- found version 2.0.0
+[0.662s] -- Searching for dependencies of gz-utils2
+[0.665s] -- Looking for gz-utils2 -- found version 2.0.0
+[0.665s] -- Searching for dependencies of gz-utils2
+[0.666s] -- Searching for <gz-utils2> component [cli]
+[0.669s] -- Looking for gz-utils2-cli -- found version 2.0.0
+[0.669s] -- Searching for dependencies of gz-utils2-cli
+[0.674s] -- Looking for gz-plugin2 -- found version 2.0.1
+[0.675s] -- Searching for dependencies of gz-plugin2
+[0.675s] -- Looking for gz-utils2 -- found version 2.0.0
+[0.676s] -- Searching for <gz-plugin2> component [loader]
+[0.678s] -- Looking for gz-plugin2-loader -- found version 2.0.1
+[0.679s] -- Searching for dependencies of gz-plugin2-loader
+[0.680s] -- Searching for <gz-plugin2> component [register]
+[0.683s] -- Looking for gz-plugin2-register -- found version 2.0.1
+[0.685s] -- Searching for dependencies of gz-plugin2-register
+[0.689s] -- Looking for gz-transport12 -- found version 12.2.0
+[0.689s] -- Searching for dependencies of gz-transport12
+[0.866s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.883s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.888s] -- Checking for module 'libzmq >= 4'
+[0.902s] --   Found libzmq , version 4.3.4
+[0.938s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[0.944s] -- Checking for module 'uuid'
+[0.956s] --   Found uuid, version 2.37.2
+[0.989s] -- Found UUID: TRUE  
+[0.990s] -- Looking for gz-utils2 -- found version 2.0.0
+[0.996s] -- Looking for gz-msgs9 -- found version 9.5.0
+[0.997s] -- Searching for dependencies of gz-msgs9
+[1.024s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.025s] -- Looking for gz-math7 -- found version 7.3.0
+[1.032s] -- Searching for <gz-transport12> component [log]
+[1.041s] -- Looking for gz-transport12-log -- found version 12.2.0
+[1.043s] -- Searching for dependencies of gz-transport12-log
+[1.045s] -- Searching for <gz-transport12> component [parameters]
+[1.052s] -- Looking for gz-transport12-parameters -- found version 12.2.0
+[1.053s] -- Searching for dependencies of gz-transport12-parameters
+[1.055s] -- Looking for gz-msgs9 -- found version 9.5.0
+[1.060s] -- Looking for gz-common5 -- found version 5.4.1
+[1.061s] -- Searching for dependencies of gz-common5
+[1.062s] -- Looking for gz-utils2 -- found version 2.0.0
+[1.062s] -- Looking for dlfcn.h - found
+[1.064s] -- Looking for libdl - found
+[1.066s] -- Found DL: TRUE  
+[1.073s] -- Searching for <gz-common5> component [profiler]
+[1.076s] -- Looking for gz-common5-profiler -- found version 5.4.1
+[1.077s] -- Searching for dependencies of gz-common5-profiler
+[1.077s] -- Searching for <gz-common5> component [events]
+[1.080s] -- Looking for gz-common5-events -- found version 5.4.1
+[1.080s] -- Searching for dependencies of gz-common5-events
+[1.081s] -- Looking for gz-math7 -- found version 7.3.0
+[1.082s] -- Searching for <gz-common5> component [av]
+[1.084s] -- Looking for gz-common5-av -- found version 5.4.1
+[1.085s] -- Searching for dependencies of gz-common5-av
+[1.092s] -- Checking for module 'libswscale'
+[1.105s] --   Found libswscale, version 5.9.100
+[1.138s] -- Found SWSCALE: TRUE  
+[1.144s] -- Checking for module 'libavdevice >= 56.4.100'
+[1.158s] --   Found libavdevice , version 58.13.100
+[1.196s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[1.201s] -- Checking for module 'libavformat'
+[1.214s] --   Found libavformat, version 58.76.100
+[1.250s] -- Found AVFORMAT: TRUE  
+[1.258s] -- Checking for module 'libavcodec'
+[1.271s] --   Found libavcodec, version 58.134.100
+[1.307s] -- Found AVCODEC: TRUE  
+[1.313s] -- Checking for module 'libavutil'
+[1.327s] --   Found libavutil, version 56.70.100
+[1.361s] -- Found AVUTIL: TRUE  
+[1.369s] -- Searching for <gz-common5> component [io]
+[1.380s] -- Looking for gz-common5-io -- found version 5.4.1
+[1.381s] -- Searching for dependencies of gz-common5-io
+[1.389s] -- Looking for gz-fuel_tools8 -- found version 8.1.0
+[1.390s] -- Searching for dependencies of gz-fuel_tools8
+[1.478s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.491s] -- Checking for module 'jsoncpp'
+[1.505s] --   Found jsoncpp, version 1.9.5
+[1.539s] -- Found JSONCPP: TRUE  
+[1.546s] -- Checking for module 'libzip'
+[1.559s] --   Found libzip, version 1.7.3
+[1.593s] -- Found ZIP: TRUE  
+[1.594s] -- Looking for gz-utils2 -- found version 2.0.0
+[1.595s] -- Looking for gz-common5 -- found version 5.4.1
+[1.595s] -- Searching for dependencies of gz-common5
+[1.596s] -- Looking for gz-utils2 -- found version 2.0.0
+[1.596s] -- Looking for dlfcn.h - found
+[1.596s] -- Looking for libdl - found
+[1.605s] -- Searching for <gz-common5> component [testing]
+[1.608s] -- Looking for gz-common5-testing -- found version 5.4.1
+[1.608s] -- Searching for dependencies of gz-common5-testing
+[1.610s] -- Looking for gz-math7 -- found version 7.3.0
+[1.610s] -- Looking for gz-msgs9 -- found version 9.5.0
+[1.614s] -- Looking for gz-gui7 -- found version 7.2.0
+[1.615s] -- Searching for dependencies of gz-gui7
+[1.639s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.646s] -- Looking for gz-utils2 -- found version 2.0.0
+[1.647s] -- Looking for gz-math7 -- found version 7.3.0
+[1.647s] -- Looking for gz-common5 -- found version 5.4.1
+[1.648s] -- Looking for gz-plugin2 -- found version 2.0.1
+[1.648s] -- Looking for gz-transport12 -- found version 12.2.0
+[1.652s] -- Looking for gz-rendering7 -- found version 7.4.1
+[1.652s] -- Searching for dependencies of gz-rendering7
+[1.653s] -- Looking for gz-math7 -- found version 7.3.0
+[1.653s] -- Searching for dependencies of gz-math7
+[1.654s] -- Looking for gz-utils2 -- found version 2.0.0
+[1.654s] -- Searching for <gz-math7> component [eigen3]
+[1.658s] -- Looking for gz-math7-eigen3 -- found version 7.3.0
+[1.659s] -- Searching for dependencies of gz-math7-eigen3
+[1.671s] -- Looking for gz-common5 -- found version 5.4.1
+[1.671s] -- Searching for dependencies of gz-common5
+[1.671s] -- Looking for gz-utils2 -- found version 2.0.0
+[1.672s] -- Looking for dlfcn.h - found
+[1.672s] -- Looking for libdl - found
+[1.681s] -- Searching for <gz-common5> component [graphics]
+[1.684s] -- Looking for gz-common5-graphics -- found version 5.4.1
+[1.685s] -- Searching for dependencies of gz-common5-graphics
+[1.685s] -- Looking for gz-math7 -- found version 7.3.0
+[1.695s] -- Found GzAssimp: TRUE (found version "5.2.0") 
+[1.696s] -- Searching for <gz-common5> component [events]
+[1.697s] -- Searching for <gz-common5> component [geospatial]
+[1.700s] -- Looking for gz-common5-geospatial -- found version 5.4.1
+[1.701s] -- Searching for dependencies of gz-common5-geospatial
+[1.701s] -- Looking for gz-math7 -- found version 7.3.0
+[1.702s] -- Looking for gz-common5 -- found version 5.4.1
+[1.703s] -- Looking for gz-plugin2 -- found version 2.0.1
+[1.704s] -- Searching for dependencies of gz-plugin2
+[1.704s] -- Looking for gz-utils2 -- found version 2.0.0
+[1.705s] -- Searching for <gz-plugin2> component [all]
+[1.708s] -- Looking for all libraries of gz-plugin2 -- found version 2.0.1
+[1.709s] -- Looking for gz-plugin2 -- found version 2.0.1
+[1.711s] -- Looking for gz-utils2 -- found version 2.0.0
+[1.720s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[1.722s] -- Looking for gz-msgs9 -- found version 9.5.0
+[1.761s] -- Looking for gz-physics6 -- found version 6.5.0
+[1.761s] -- Searching for dependencies of gz-physics6
+[1.762s] -- Looking for gz-math7 -- found version 7.3.0
+[1.762s] -- Looking for gz-plugin2 -- found version 2.0.1
+[1.763s] -- Looking for gz-utils2 -- found version 2.0.0
+[1.764s] -- Searching for <gz-physics6> component [heightmap]
+[1.767s] -- Looking for gz-physics6-heightmap -- found version 6.5.0
+[1.768s] -- Searching for dependencies of gz-physics6-heightmap
+[1.769s] -- Looking for gz-common5 -- found version 5.4.1
+[1.770s] -- Searching for <gz-physics6> component [mesh]
+[1.773s] -- Looking for gz-physics6-mesh -- found version 6.5.0
+[1.774s] -- Searching for dependencies of gz-physics6-mesh
+[1.774s] -- Looking for gz-common5 -- found version 5.4.1
+[1.775s] -- Searching for <gz-physics6> component [sdf]
+[1.778s] -- Looking for gz-physics6-sdf -- found version 6.5.0
+[1.779s] -- Searching for dependencies of gz-physics6-sdf
+[1.780s] -- Looking for sdformat13 -- found version 13.6.0
+[1.783s] -- Looking for gz-sensors7 -- found version 7.2.0
+[1.784s] -- Searching for dependencies of gz-sensors7
+[1.811s] -- Looking for gz-math7 -- found version 7.3.0
+[1.811s] -- Looking for gz-common5 -- found version 5.4.1
+[1.812s] -- Looking for gz-transport12 -- found version 12.2.0
+[1.813s] -- Looking for gz-rendering7 -- found version 7.4.1
+[1.813s] -- Looking for gz-msgs9 -- found version 9.5.0
+[1.814s] -- Looking for sdformat13 -- found version 13.6.0
+[1.815s] -- Searching for <gz-sensors7> component [air_pressure]
+[1.818s] -- Looking for gz-sensors7-air_pressure -- found version 7.2.0
+[1.819s] -- Searching for dependencies of gz-sensors7-air_pressure
+[1.819s] -- Searching for <gz-sensors7> component [air_speed]
+[1.824s] -- Looking for gz-sensors7-air_speed -- found version 7.2.0
+[1.826s] -- Searching for dependencies of gz-sensors7-air_speed
+[1.827s] -- Searching for <gz-sensors7> component [altimeter]
+[1.831s] -- Looking for gz-sensors7-altimeter -- found version 7.2.0
+[1.832s] -- Searching for dependencies of gz-sensors7-altimeter
+[1.832s] -- Searching for <gz-sensors7> component [imu]
+[1.836s] -- Looking for gz-sensors7-imu -- found version 7.2.0
+[1.836s] -- Searching for dependencies of gz-sensors7-imu
+[1.837s] -- Searching for <gz-sensors7> component [force_torque]
+[1.840s] -- Looking for gz-sensors7-force_torque -- found version 7.2.0
+[1.841s] -- Searching for dependencies of gz-sensors7-force_torque
+[1.841s] -- Searching for <gz-sensors7> component [logical_camera]
+[1.844s] -- Looking for gz-sensors7-logical_camera -- found version 7.2.0
+[1.845s] -- Searching for dependencies of gz-sensors7-logical_camera
+[1.846s] -- Searching for <gz-sensors7> component [magnetometer]
+[1.848s] -- Looking for gz-sensors7-magnetometer -- found version 7.2.0
+[1.849s] -- Searching for dependencies of gz-sensors7-magnetometer
+[1.850s] -- Searching for <gz-sensors7> component [navsat]
+[1.853s] -- Looking for gz-sensors7-navsat -- found version 7.2.0
+[1.853s] -- Searching for dependencies of gz-sensors7-navsat
+[1.855s] -- Searching for <gz-sensors7> component [rendering]
+[1.858s] -- Looking for gz-sensors7-rendering -- found version 7.2.0
+[1.859s] -- Searching for dependencies of gz-sensors7-rendering
+[1.859s] -- Searching for <gz-sensors7> component [lidar]
+[1.862s] -- Looking for gz-sensors7-lidar -- found version 7.2.0
+[1.863s] -- Searching for dependencies of gz-sensors7-lidar
+[1.863s] -- Looking for gz-sensors7 -- found version 7.2.0
+[1.864s] -- Searching for <gz-sensors7> component [gpu_lidar]
+[1.867s] -- Looking for gz-sensors7-gpu_lidar -- found version 7.2.0
+[1.867s] -- Searching for dependencies of gz-sensors7-gpu_lidar
+[1.868s] -- Looking for gz-sensors7 -- found version 7.2.0
+[1.869s] -- Searching for <gz-sensors7> component [camera]
+[1.871s] -- Looking for gz-sensors7-camera -- found version 7.2.0
+[1.872s] -- Searching for dependencies of gz-sensors7-camera
+[1.872s] -- Looking for gz-sensors7 -- found version 7.2.0
+[1.873s] -- Searching for <gz-sensors7> component [boundingbox_camera]
+[1.876s] -- Looking for gz-sensors7-boundingbox_camera -- found version 7.2.0
+[1.877s] -- Searching for dependencies of gz-sensors7-boundingbox_camera
+[1.878s] -- Searching for <gz-sensors7> component [segmentation_camera]
+[1.881s] -- Looking for gz-sensors7-segmentation_camera -- found version 7.2.0
+[1.882s] -- Searching for dependencies of gz-sensors7-segmentation_camera
+[1.882s] -- Searching for <gz-sensors7> component [depth_camera]
+[1.886s] -- Looking for gz-sensors7-depth_camera -- found version 7.2.0
+[1.887s] -- Searching for dependencies of gz-sensors7-depth_camera
+[1.888s] -- Looking for gz-sensors7 -- found version 7.2.0
+[1.888s] -- Searching for <gz-sensors7> component [rgbd_camera]
+[1.892s] -- Looking for gz-sensors7-rgbd_camera -- found version 7.2.0
+[1.893s] -- Searching for dependencies of gz-sensors7-rgbd_camera
+[1.893s] -- Looking for gz-sensors7 -- found version 7.2.0
+[1.894s] -- Searching for <gz-sensors7> component [thermal_camera]
+[1.898s] -- Looking for gz-sensors7-thermal_camera -- found version 7.2.0
+[1.898s] -- Searching for dependencies of gz-sensors7-thermal_camera
+[1.899s] -- Looking for gz-sensors7 -- found version 7.2.0
+[1.900s] -- Searching for <gz-sensors7> component [wide_angle_camera]
+[1.902s] -- Looking for gz-sensors7-wide_angle_camera -- found version 7.2.0
+[1.903s] -- Searching for dependencies of gz-sensors7-wide_angle_camera
+[1.905s] -- Looking for gz-rendering7 -- found version 7.4.1
+[1.905s] -- Looking for gz-math7 -- found version 7.3.0
+[1.906s] -- Looking for gz-utils2 -- found version 2.0.0
+[1.932s] -- Looking for gz-common5 -- found version 5.4.1
+[1.932s] -- Looking for gz-fuel_tools8 -- found version 8.1.0
+[1.933s] -- Looking for gz-math7 -- found version 7.3.0
+[1.933s] -- Looking for gz-msgs9 -- found version 9.5.0
+[1.934s] -- Looking for gz-transport12 -- found version 12.2.0
+[1.934s] -- Looking for gz-plugin2 -- found version 2.0.1
+[1.935s] -- Looking for gz-rendering7 -- found version 7.4.1
+[1.935s] -- Looking for gz-sensors7 -- found version 7.2.0
+[1.936s] -- Looking for gz-utils2 -- found version 2.0.0
+[1.936s] -- Looking for sdformat13 -- found version 13.6.0
+[1.938s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[1.979s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.987s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.002s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.024s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.054s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.347s] -- Configuring done
+[2.501s] -- Generating done
+[2.507s] -- Build files have been written to: /home/syauqibilfaqih/vrx_ws/build/vrx_gz
+[2.521s] Invoked command in '/home/syauqibilfaqih/vrx_ws/build/vrx_gz' returned '0': AMENT_PREFIX_PATH=/home/syauqibilfaqih/vrx_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/syauqibilfaqih/vrx_ws/install:/opt/ros/humble /home/syauqibilfaqih/bin/cmake /home/syauqibilfaqih/vrx_ws/src/vrx/vrx_gz -DCMAKE_INSTALL_PREFIX=/home/syauqibilfaqih/vrx_ws/install
+[2.524s] Invoking command in '/home/syauqibilfaqih/vrx_ws/build/vrx_gz': AMENT_PREFIX_PATH=/home/syauqibilfaqih/vrx_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/syauqibilfaqih/vrx_ws/install:/opt/ros/humble /home/syauqibilfaqih/bin/cmake --build /home/syauqibilfaqih/vrx_ws/build/vrx_gz -- -j4 -l4
+[2.547s] [35m[1mScanning dependencies of target Waves[0m
+[2.548s] [35m[1mScanning dependencies of target ament_cmake_python_copy_vrx_gz[0m
+[2.548s] [35m[1mScanning dependencies of target ScoringPlugin[0m
+[2.556s] [  0%] Built target ament_cmake_python_copy_vrx_gz
+[2.562s] [35m[1mScanning dependencies of target ament_cmake_python_build_vrx_gz_egg[0m
+[2.643s] [  2%] [32mBuilding CXX object CMakeFiles/ScoringPlugin.dir/src/ScoringPlugin.cc.o[0m
+[2.746s] [  4%] [32mBuilding CXX object CMakeFiles/Waves.dir/src/Wavefield.cc.o[0m
+[2.940s] running egg_info
+[2.941s] creating vrx_gz.egg-info
+[2.941s] writing vrx_gz.egg-info/PKG-INFO
+[2.941s] writing dependency_links to vrx_gz.egg-info/dependency_links.txt
+[2.942s] writing top-level names to vrx_gz.egg-info/top_level.txt
+[2.942s] writing manifest file 'vrx_gz.egg-info/SOURCES.txt'
+[2.945s] reading manifest file 'vrx_gz.egg-info/SOURCES.txt'
+[2.946s] writing manifest file 'vrx_gz.egg-info/SOURCES.txt'
+[2.975s] [  4%] Built target ament_cmake_python_build_vrx_gz_egg
+[7.822s] [  6%] [32m[1mLinking CXX shared library libWaves.so[0m
+[8.261s] [  6%] Built target Waves
+[8.266s] [35m[1mScanning dependencies of target PolyhedraBuoyancyDrag[0m
+[8.413s] [  8%] [32mBuilding CXX object CMakeFiles/PolyhedraBuoyancyDrag.dir/src/PolyhedraBuoyancyDrag.cc.o[0m
+[8.413s] [ 10%] [32mBuilding CXX object CMakeFiles/PolyhedraBuoyancyDrag.dir/src/PolyhedronVolume.cc.o[0m
+[8.414s] [ 12%] [32mBuilding CXX object CMakeFiles/PolyhedraBuoyancyDrag.dir/src/ShapeVolume.cc.o[0m
+[10.275s] [ 14%] [32m[1mLinking CXX shared library libScoringPlugin.so[0m
+[10.860s] [ 14%] Built target ScoringPlugin
+[10.867s] [35m[1mScanning dependencies of target AcousticPingerPlugin[0m
+[10.867s] [35m[1mScanning dependencies of target WildlifeScoringPlugin[0m
+[10.964s] [ 16%] [32mBuilding CXX object CMakeFiles/AcousticPingerPlugin.dir/src/AcousticPingerPlugin.cc.o[0m
+[10.970s] [ 18%] [32mBuilding CXX object CMakeFiles/WildlifeScoringPlugin.dir/src/WildlifeScoringPlugin.cc.o[0m
+[11.941s] [35m[1mScanning dependencies of target GymkhanaScoringPlugin[0m
+[12.008s] [ 20%] [32mBuilding CXX object CMakeFiles/GymkhanaScoringPlugin.dir/src/GymkhanaScoringPlugin.cc.o[0m
+[23.048s] [ 22%] [32m[1mLinking CXX shared library libPolyhedraBuoyancyDrag.so[0m
+[23.699s] [ 25%] [32m[1mLinking CXX shared library libGymkhanaScoringPlugin.so[0m
+[23.744s] [ 27%] [32m[1mLinking CXX shared library libAcousticPingerPlugin.so[0m
+[24.163s] [ 27%] Built target PolyhedraBuoyancyDrag
+[24.176s] [35m[1mScanning dependencies of target AcousticPerceptionScoringPlugin[0m
+[24.366s] [ 29%] [32mBuilding CXX object CMakeFiles/AcousticPerceptionScoringPlugin.dir/src/AcousticPerceptionScoringPlugin.cc.o[0m
+[24.401s] [ 29%] Built target GymkhanaScoringPlugin
+[24.409s] [35m[1mScanning dependencies of target Surface[0m
+[24.477s] [ 29%] Built target AcousticPingerPlugin
+[24.480s] [ 31%] [32mBuilding CXX object CMakeFiles/Surface.dir/src/Surface.cc.o[0m
+[24.485s] [35m[1mScanning dependencies of target StationkeepingScoringPlugin[0m
+[24.738s] [ 33%] [32mBuilding CXX object CMakeFiles/StationkeepingScoringPlugin.dir/src/StationkeepingScoringPlugin.cc.o[0m
+[25.006s] [ 35%] [32m[1mLinking CXX shared library libWildlifeScoringPlugin.so[0m
+[25.838s] [ 35%] Built target WildlifeScoringPlugin
+[25.843s] [ 37%] [32mBuilding CXX object CMakeFiles/AcousticPerceptionScoringPlugin.dir/src/WaypointMarkers.cc.o[0m
+[34.695s] [ 39%] [32m[1mLinking CXX shared library libSurface.so[0m
+[35.327s] [ 39%] Built target Surface
+[35.334s] [35m[1mScanning dependencies of target AcousticTrackingScoringPlugin[0m
+[35.500s] [ 41%] [32mBuilding CXX object CMakeFiles/AcousticTrackingScoringPlugin.dir/src/AcousticTrackingScoringPlugin.cc.o[0m
+[36.369s] [ 43%] [32mBuilding CXX object CMakeFiles/AcousticTrackingScoringPlugin.dir/src/WaypointMarkers.cc.o[0m
+[39.023s] [ 45%] [32m[1mLinking CXX shared library libAcousticPerceptionScoringPlugin.so[0m
+[39.859s] [ 45%] Built target AcousticPerceptionScoringPlugin
+[39.864s] [ 47%] [32mBuilding CXX object CMakeFiles/StationkeepingScoringPlugin.dir/src/WaypointMarkers.cc.o[0m
+[39.924s] [35m[1mScanning dependencies of target WaveVisual[0m
+[40.096s] [ 50%] [32mBuilding CXX object CMakeFiles/WaveVisual.dir/src/WaveVisual.cc.o[0m
+[49.510s] [ 52%] [32m[1mLinking CXX shared library libAcousticTrackingScoringPlugin.so[0m
+[50.639s] [ 52%] Built target AcousticTrackingScoringPlugin
+[51.619s] [ 54%] [32m[1mLinking CXX shared library libStationkeepingScoringPlugin.so[0m
+[54.089s] [ 54%] Built target StationkeepingScoringPlugin
+[60.127s] [ 56%] [32m[1mLinking CXX shared library libWaveVisual.so[0m
+[61.288s] [ 56%] Built target WaveVisual
+[61.307s] [35m[1mScanning dependencies of target BallShooterPlugin[0m
+[61.576s] [ 58%] [32mBuilding CXX object CMakeFiles/BallShooterPlugin.dir/src/BallShooterPlugin.cc.o[0m
+[90.848s] [ 60%] [32m[1mLinking CXX shared library libBallShooterPlugin.so[0m
+[92.221s] [ 60%] Built target BallShooterPlugin
+[92.230s] [35m[1mScanning dependencies of target LightBuoyPlugin[0m
+[92.307s] [ 62%] [32mBuilding CXX object CMakeFiles/LightBuoyPlugin.dir/src/LightBuoyPlugin.cc.o[0m
+[102.996s] [ 64%] [32m[1mLinking CXX shared library libLightBuoyPlugin.so[0m
+[103.661s] [ 64%] Built target LightBuoyPlugin
+[103.670s] [35m[1mScanning dependencies of target PerceptionScoringPlugin[0m
+[103.734s] [ 66%] [32mBuilding CXX object CMakeFiles/PerceptionScoringPlugin.dir/src/PerceptionScoringPlugin.cc.o[0m
+[120.715s] [ 68%] [32m[1mLinking CXX shared library libPerceptionScoringPlugin.so[0m
+[122.178s] [ 68%] Built target PerceptionScoringPlugin
+[122.191s] [35m[1mScanning dependencies of target PlacardPlugin[0m
+[122.302s] [ 70%] [32mBuilding CXX object CMakeFiles/PlacardPlugin.dir/src/PlacardPlugin.cc.o[0m
+[129.728s] [ 72%] [32m[1mLinking CXX shared library libPlacardPlugin.so[0m
+[130.188s] [ 72%] Built target PlacardPlugin
+[130.193s] [35m[1mScanning dependencies of target PublisherPlugin[0m
+[130.231s] [ 75%] [32mBuilding CXX object CMakeFiles/PublisherPlugin.dir/src/PublisherPlugin.cc.o[0m
+[135.017s] [ 77%] [32m[1mLinking CXX shared library libPublisherPlugin.so[0m
+[135.319s] [ 77%] Built target PublisherPlugin
+[135.324s] [35m[1mScanning dependencies of target NavigationScoringPlugin[0m
+[135.415s] [ 79%] [32mBuilding CXX object CMakeFiles/NavigationScoringPlugin.dir/src/NavigationScoringPlugin.cc.o[0m
+[143.073s] [ 81%] [32m[1mLinking CXX shared library libNavigationScoringPlugin.so[0m
+[143.438s] [ 81%] Built target NavigationScoringPlugin
+[143.442s] [35m[1mScanning dependencies of target ScanDockScoringPlugin[0m
+[143.532s] [ 83%] [32mBuilding CXX object CMakeFiles/ScanDockScoringPlugin.dir/src/ScanDockScoringPlugin.cc.o[0m
+[152.332s] [ 85%] [32m[1mLinking CXX shared library libScanDockScoringPlugin.so[0m
+[152.786s] [ 85%] Built target ScanDockScoringPlugin
+[152.791s] [35m[1mScanning dependencies of target USVWind[0m
+[152.928s] [ 87%] [32mBuilding CXX object CMakeFiles/USVWind.dir/src/USVWind.cc.o[0m
+[161.831s] [ 89%] [32m[1mLinking CXX shared library libUSVWind.so[0m
+[162.246s] [ 89%] Built target USVWind
+[162.253s] [35m[1mScanning dependencies of target SimpleHydrodynamics[0m
+[162.253s] [35m[1mScanning dependencies of target WayfindingScoringPlugin[0m
+[162.340s] [ 91%] [32mBuilding CXX object CMakeFiles/SimpleHydrodynamics.dir/src/SimpleHydrodynamics.cc.o[0m
+[162.374s] [ 93%] [32mBuilding CXX object CMakeFiles/WayfindingScoringPlugin.dir/src/WayfindingScoringPlugin.cc.o[0m
+[162.374s] [ 95%] [32mBuilding CXX object CMakeFiles/WayfindingScoringPlugin.dir/src/WaypointMarkers.cc.o[0m
+[168.782s] [ 97%] [32m[1mLinking CXX shared library libSimpleHydrodynamics.so[0m
+[169.121s] [ 97%] Built target SimpleHydrodynamics
+[173.217s] [100%] [32m[1mLinking CXX shared library libWayfindingScoringPlugin.so[0m
+[173.664s] [100%] Built target WayfindingScoringPlugin
+[173.688s] Invoked command in '/home/syauqibilfaqih/vrx_ws/build/vrx_gz' returned '0': AMENT_PREFIX_PATH=/home/syauqibilfaqih/vrx_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/syauqibilfaqih/vrx_ws/install:/opt/ros/humble /home/syauqibilfaqih/bin/cmake --build /home/syauqibilfaqih/vrx_ws/build/vrx_gz -- -j4 -l4
+[173.789s] Invoking command in '/home/syauqibilfaqih/vrx_ws/build/vrx_gz': AMENT_PREFIX_PATH=/home/syauqibilfaqih/vrx_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/syauqibilfaqih/vrx_ws/install:/opt/ros/humble /home/syauqibilfaqih/bin/cmake --install /home/syauqibilfaqih/vrx_ws/build/vrx_gz
+[173.792s] -- Install configuration: ""
+[173.792s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/environment/resource_paths.dsv
+[173.792s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/environment/resource_paths.sh
+[173.792s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/lib/libWaves.so
+[173.794s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/lib/libPolyhedraBuoyancyDrag.so
+[173.796s] -- Set runtime path of "/home/syauqibilfaqih/vrx_ws/install/lib/libPolyhedraBuoyancyDrag.so" to ""
+[173.796s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/lib/libScoringPlugin.so
+[173.800s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/lib/libStationkeepingScoringPlugin.so
+[173.803s] -- Set runtime path of "/home/syauqibilfaqih/vrx_ws/install/lib/libStationkeepingScoringPlugin.so" to ""
+[173.803s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/lib/libWayfindingScoringPlugin.so
+[173.806s] -- Set runtime path of "/home/syauqibilfaqih/vrx_ws/install/lib/libWayfindingScoringPlugin.so" to ""
+[173.806s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/lib/libAcousticPerceptionScoringPlugin.so
+[173.810s] -- Set runtime path of "/home/syauqibilfaqih/vrx_ws/install/lib/libAcousticPerceptionScoringPlugin.so" to ""
+[173.810s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/lib/libAcousticTrackingScoringPlugin.so
+[173.813s] -- Set runtime path of "/home/syauqibilfaqih/vrx_ws/install/lib/libAcousticTrackingScoringPlugin.so" to ""
+[173.813s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/lib/libAcousticPingerPlugin.so
+[173.816s] -- Set runtime path of "/home/syauqibilfaqih/vrx_ws/install/lib/libAcousticPingerPlugin.so" to ""
+[173.816s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/lib/libBallShooterPlugin.so
+[173.819s] -- Set runtime path of "/home/syauqibilfaqih/vrx_ws/install/lib/libBallShooterPlugin.so" to ""
+[173.820s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/lib/libLightBuoyPlugin.so
+[173.822s] -- Set runtime path of "/home/syauqibilfaqih/vrx_ws/install/lib/libLightBuoyPlugin.so" to ""
+[173.822s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/lib/libNavigationScoringPlugin.so
+[173.825s] -- Set runtime path of "/home/syauqibilfaqih/vrx_ws/install/lib/libNavigationScoringPlugin.so" to ""
+[173.825s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/lib/libGymkhanaScoringPlugin.so
+[173.827s] -- Set runtime path of "/home/syauqibilfaqih/vrx_ws/install/lib/libGymkhanaScoringPlugin.so" to ""
+[173.827s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/lib/libPerceptionScoringPlugin.so
+[173.831s] -- Set runtime path of "/home/syauqibilfaqih/vrx_ws/install/lib/libPerceptionScoringPlugin.so" to ""
+[173.831s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/lib/libPlacardPlugin.so
+[173.834s] -- Set runtime path of "/home/syauqibilfaqih/vrx_ws/install/lib/libPlacardPlugin.so" to ""
+[173.834s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/lib/libPublisherPlugin.so
+[173.835s] -- Set runtime path of "/home/syauqibilfaqih/vrx_ws/install/lib/libPublisherPlugin.so" to ""
+[173.835s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/lib/libScanDockScoringPlugin.so
+[173.839s] -- Set runtime path of "/home/syauqibilfaqih/vrx_ws/install/lib/libScanDockScoringPlugin.so" to ""
+[173.839s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/lib/libSimpleHydrodynamics.so
+[173.841s] -- Set runtime path of "/home/syauqibilfaqih/vrx_ws/install/lib/libSimpleHydrodynamics.so" to ""
+[173.841s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/lib/libSurface.so
+[173.844s] -- Set runtime path of "/home/syauqibilfaqih/vrx_ws/install/lib/libSurface.so" to ""
+[173.844s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/lib/libUSVWind.so
+[173.846s] -- Set runtime path of "/home/syauqibilfaqih/vrx_ws/install/lib/libUSVWind.so" to ""
+[173.846s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/lib/libWaveVisual.so
+[173.849s] -- Set runtime path of "/home/syauqibilfaqih/vrx_ws/install/lib/libWaveVisual.so" to ""
+[173.850s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/lib/libWildlifeScoringPlugin.so
+[173.853s] -- Set runtime path of "/home/syauqibilfaqih/vrx_ws/install/lib/libWildlifeScoringPlugin.so" to ""
+[173.853s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/environment/pythonpath.sh
+[173.853s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/environment/pythonpath.dsv
+[173.853s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/local/lib/python3.10/dist-packages/vrx_gz-0.0.0-py3.10.egg-info
+[173.853s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/local/lib/python3.10/dist-packages/vrx_gz-0.0.0-py3.10.egg-info/dependency_links.txt
+[173.854s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/local/lib/python3.10/dist-packages/vrx_gz-0.0.0-py3.10.egg-info/top_level.txt
+[173.854s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/local/lib/python3.10/dist-packages/vrx_gz-0.0.0-py3.10.egg-info/PKG-INFO
+[173.854s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/local/lib/python3.10/dist-packages/vrx_gz-0.0.0-py3.10.egg-info/SOURCES.txt
+[173.854s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/local/lib/python3.10/dist-packages/vrx_gz
+[173.854s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/local/lib/python3.10/dist-packages/vrx_gz/launch.py
+[173.854s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/local/lib/python3.10/dist-packages/vrx_gz/model.py
+[173.854s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/local/lib/python3.10/dist-packages/vrx_gz/bridge.py
+[173.854s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/local/lib/python3.10/dist-packages/vrx_gz/__init__.py
+[173.854s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/local/lib/python3.10/dist-packages/vrx_gz/bridges.py
+[173.855s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/local/lib/python3.10/dist-packages/vrx_gz/payload_bridges.py
+[173.904s] Listing '/home/syauqibilfaqih/vrx_ws/install/local/lib/python3.10/dist-packages/vrx_gz'...
+[173.904s] Compiling '/home/syauqibilfaqih/vrx_ws/install/local/lib/python3.10/dist-packages/vrx_gz/__init__.py'...
+[173.904s] Compiling '/home/syauqibilfaqih/vrx_ws/install/local/lib/python3.10/dist-packages/vrx_gz/bridge.py'...
+[173.904s] Compiling '/home/syauqibilfaqih/vrx_ws/install/local/lib/python3.10/dist-packages/vrx_gz/bridges.py'...
+[173.904s] Compiling '/home/syauqibilfaqih/vrx_ws/install/local/lib/python3.10/dist-packages/vrx_gz/launch.py'...
+[173.904s] Compiling '/home/syauqibilfaqih/vrx_ws/install/local/lib/python3.10/dist-packages/vrx_gz/model.py'...
+[173.905s] Compiling '/home/syauqibilfaqih/vrx_ws/install/local/lib/python3.10/dist-packages/vrx_gz/payload_bridges.py'...
+[173.910s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/config
+[173.910s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/config/wamv.yaml
+[173.910s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/launch
+[173.910s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/launch/spawn.launch.py
+[173.910s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/launch/competition.launch.py
+[173.910s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/launch/spawn_config.launch.py
+[173.910s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/launch/usv_joy_teleop.py
+[173.911s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models
+[173.911s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/robotx_light_buoy_yrg
+[173.911s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/robotx_light_buoy_yrg/model.sdf
+[173.911s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/robotx_light_buoy_yrg/model.config
+[173.911s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/short_navigation_course_1
+[173.911s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/short_navigation_course_1/model.sdf
+[173.911s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/short_navigation_course_1/model.config
+[173.912s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/obstacle_course
+[173.912s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/obstacle_course/model.sdf
+[173.912s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/obstacle_course/model.config
+[173.912s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/robotx_light_buoy_rgy
+[173.912s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/robotx_light_buoy_rgy/model.sdf
+[173.912s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/robotx_light_buoy_rgy/model.config
+[173.912s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/short_navigation_course_2
+[173.913s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/short_navigation_course_2/model.sdf
+[173.913s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/short_navigation_course_2/model.config
+[173.913s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/articulated_platform
+[173.913s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/articulated_platform/model.sdf
+[173.913s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/articulated_platform/model.config
+[173.913s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/short_navigation_course_0
+[173.913s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/short_navigation_course_0/model.sdf
+[173.914s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/short_navigation_course_0/model.config
+[173.914s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/placard_2022
+[173.914s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/placard_2022/materials
+[173.914s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/placard_2022/materials/textures
+[173.914s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/placard_2022/materials/textures/Placard.png
+[173.914s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/placard_2022/meshes
+[173.914s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/placard_2022/meshes/placard_2022.dae
+[173.915s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/placard_2022/model.sdf
+[173.915s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/placard_2022/model.config
+[173.915s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/dock_2022_base
+[173.915s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/dock_2022_base/model.sdf
+[173.915s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/dock_2022_base/model.config
+[173.915s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/platform
+[173.915s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/platform/model.sdf
+[173.916s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/platform/model.config
+[173.916s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/dock_2022
+[173.916s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/dock_2022/model.sdf
+[173.916s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/dock_2022/model.config
+[173.916s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/robotx_light_buoy_ybr
+[173.916s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/robotx_light_buoy_ybr/model.sdf
+[173.916s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/robotx_light_buoy_ybr/model.config
+[173.917s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/dock_block_4x4
+[173.917s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/dock_block_4x4/mesh
+[173.917s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/dock_block_4x4/mesh/DockCubes_Metalness.png
+[173.917s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/dock_block_4x4/mesh/DockCubes_Albedo.png
+[173.919s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/dock_block_4x4/mesh/DockCubes_Normal.png
+[173.963s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/dock_block_4x4/mesh/dock_block_4x4.dae
+[173.966s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/dock_block_4x4/mesh/DockCubes_Roughness.png
+[173.968s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/dock_block_4x4/model.sdf
+[173.968s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/dock_block_4x4/model.config
+[173.968s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/coast_waves
+[173.968s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/coast_waves/materials
+[173.969s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/coast_waves/materials/textures
+[173.969s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/coast_waves/materials/textures/skybox_lowres.dds
+[173.970s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/coast_waves/materials/textures/wave_normals.dds
+[173.971s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/coast_waves/materials/programs
+[173.971s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/coast_waves/materials/programs/GerstnerWaves_fs_330.glsl
+[173.972s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/coast_waves/materials/programs/GerstnerWaves_vs_330.glsl
+[173.972s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/coast_waves/meshes
+[173.972s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/coast_waves/meshes/waterlow.dae
+[173.992s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/coast_waves/model.sdf
+[173.992s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/coast_waves/model.config
+[173.992s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/robotx_light_buoy_rgb
+[173.992s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/robotx_light_buoy_rgb/mesh
+[173.992s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/robotx_light_buoy_rgb/mesh/LightTower_Albedo.png
+[173.996s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/robotx_light_buoy_rgb/mesh/LightTower_Roughness.png
+[173.998s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/robotx_light_buoy_rgb/mesh/robotx_light_buoy.dae
+[174.000s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/robotx_light_buoy_rgb/mesh/LightTower_Metalness.png
+[174.000s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/robotx_light_buoy_rgb/mesh/LightTower_Normal.png
+[174.006s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/robotx_light_buoy_rgb/mesh/LightTower_Opacity.png
+[174.006s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/robotx_light_buoy_rgb/model.sdf
+[174.006s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/robotx_light_buoy_rgb/model.config
+[174.007s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/symbol_triangle
+[174.007s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/symbol_triangle/mesh
+[174.007s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/symbol_triangle/mesh/triangle.dae
+[174.007s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/symbol_triangle/model.sdf
+[174.007s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/symbol_triangle/model.config
+[174.007s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/entrance_exit
+[174.007s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/entrance_exit/model.sdf
+[174.007s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/models/entrance_exit/model.config
+[174.008s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds
+[174.008s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/acoustic_perception_task.sdf
+[174.008s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/nbpark.sdf
+[174.008s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/scan_dock_deliver_task.sdf
+[174.008s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/acoustic_tracking_task.sdf
+[174.009s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/2023_practice
+[174.009s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/2023_practice/practice_2023_acoustic_perception0_task.sdf
+[174.009s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/2023_practice/practice_2023_perception2_task.sdf
+[174.009s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/2023_practice/practice_2023_acoustic_tracking0_task.sdf
+[174.010s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/2023_practice/practice_2023_stationkeeping1_task.sdf
+[174.010s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/2023_practice/practice_2023_follow_path0_task.sdf
+[174.010s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/2023_practice/practice_2023_acoustic_tracking2_task.sdf
+[174.011s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/2023_practice/practice_2023_stationkeeping0_task.sdf
+[174.011s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/2023_practice/practice_2023_perception0_task.sdf
+[174.011s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/2023_practice/practice_2023_perception1_task.sdf
+[174.011s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/2023_practice/practice_2023_acoustic_perception1_task.sdf
+[174.011s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/2023_practice/practice_2023_follow_path1_task.sdf
+[174.012s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/2023_practice/practice_2023_wayfinding1_task.sdf
+[174.012s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/2023_practice/practice_2023_wayfinding0_task.sdf
+[174.012s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/2023_practice/practice_2023_follow_path2_task.sdf
+[174.012s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/2023_practice/practice_2023_wayfinding2_task.sdf
+[174.013s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/2023_practice/practice_2023_acoustic_perception2_task.sdf
+[174.013s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/2023_practice/practice_2023_wildlife1_task.sdf
+[174.013s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/2023_practice/practice_2023_scan_dock_deliver1_task.sdf
+[174.014s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/2023_practice/practice_2023_stationkeeping2_task.sdf
+[174.014s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/2023_practice/practice_2023_scan_dock_deliver2_task.sdf
+[174.014s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/2023_practice/practice_2023_wildlife2_task.sdf
+[174.014s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/2023_practice/practice_2023_wildlife0_task.sdf
+[174.015s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/2023_practice/practice_2023_scan_dock_deliver0_task.sdf
+[174.015s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/2023_practice/practice_2023_acoustic_tracking1_task.sdf
+[174.015s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/follow_path_task.sdf
+[174.015s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/navigation_task.sdf
+[174.016s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/wildlife_task.sdf
+[174.016s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/wayfinding_task.sdf
+[174.016s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/perception_task.sdf
+[174.016s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/stationkeeping_task.sdf
+[174.017s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/sydney_regatta.sdf
+[174.017s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/worlds/gymkhana_task.sdf
+[174.017s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/ament_index/resource_index/package_run_dependencies/vrx_gz
+[174.017s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/ament_index/resource_index/parent_prefix_path/vrx_gz
+[174.017s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/environment/ament_prefix_path.sh
+[174.018s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/environment/ament_prefix_path.dsv
+[174.018s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/environment/path.sh
+[174.018s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/environment/path.dsv
+[174.018s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/local_setup.bash
+[174.018s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/local_setup.sh
+[174.018s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/local_setup.zsh
+[174.018s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/local_setup.dsv
+[174.019s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/package.dsv
+[174.019s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/ament_index/resource_index/packages/vrx_gz
+[174.019s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/cmake/vrx_gzConfig.cmake
+[174.019s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/cmake/vrx_gzConfig-version.cmake
+[174.019s] -- Installing: /home/syauqibilfaqih/vrx_ws/install/share/vrx_gz/package.xml
+[174.025s] Invoked command in '/home/syauqibilfaqih/vrx_ws/build/vrx_gz' returned '0': AMENT_PREFIX_PATH=/home/syauqibilfaqih/vrx_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/syauqibilfaqih/vrx_ws/install:/opt/ros/humble /home/syauqibilfaqih/bin/cmake --install /home/syauqibilfaqih/vrx_ws/build/vrx_gz

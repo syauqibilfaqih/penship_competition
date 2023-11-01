@@ -1,0 +1,26 @@
+[5.748s] Invoking command in '/home/syauqibilfaqih/penship_ws/src/penship_vrx': PYTHONPATH=/home/syauqibilfaqih/penship_ws/src/build/penship_vrx/prefix_override:/home/syauqibilfaqih/penship_ws/src/install/penship_vrx/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/penship_vrx build --build-base /home/syauqibilfaqih/penship_ws/src/build/penship_vrx/build install --record /home/syauqibilfaqih/penship_ws/src/build/penship_vrx/install.log --single-version-externally-managed
+[8.007s] running egg_info
+[8.009s] writing ../build/penship_vrx/penship_vrx.egg-info/PKG-INFO
+[8.012s] writing dependency_links to ../build/penship_vrx/penship_vrx.egg-info/dependency_links.txt
+[8.015s] writing entry points to ../build/penship_vrx/penship_vrx.egg-info/entry_points.txt
+[8.016s] writing requirements to ../build/penship_vrx/penship_vrx.egg-info/requires.txt
+[8.016s] writing top-level names to ../build/penship_vrx/penship_vrx.egg-info/top_level.txt
+[8.028s] reading manifest file '../build/penship_vrx/penship_vrx.egg-info/SOURCES.txt'
+[8.035s] writing manifest file '../build/penship_vrx/penship_vrx.egg-info/SOURCES.txt'
+[8.038s] running build
+[8.042s] running build_py
+[8.046s] copying penship_vrx/penship_stationkeeping.py -> /home/syauqibilfaqih/penship_ws/src/build/penship_vrx/build/lib/penship_vrx
+[8.048s] running install
+[8.049s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.049s]   warnings.warn(
+[8.051s] running install_lib
+[8.053s] copying /home/syauqibilfaqih/penship_ws/src/build/penship_vrx/build/lib/penship_vrx/penship_stationkeeping.py -> /home/syauqibilfaqih/penship_ws/src/install/penship_vrx/lib/python3.10/site-packages/penship_vrx
+[8.069s] byte-compiling /home/syauqibilfaqih/penship_ws/src/install/penship_vrx/lib/python3.10/site-packages/penship_vrx/penship_stationkeeping.py to penship_stationkeeping.cpython-310.pyc
+[8.082s] running install_data
+[8.087s] running install_egg_info
+[8.098s] removing '/home/syauqibilfaqih/penship_ws/src/install/penship_vrx/lib/python3.10/site-packages/penship_vrx-0.0.0-py3.10.egg-info' (and everything under it)
+[8.103s] Copying ../build/penship_vrx/penship_vrx.egg-info to /home/syauqibilfaqih/penship_ws/src/install/penship_vrx/lib/python3.10/site-packages/penship_vrx-0.0.0-py3.10.egg-info
+[8.127s] running install_scripts
+[8.327s] Installing stationkeeping script to /home/syauqibilfaqih/penship_ws/src/install/penship_vrx/lib/penship_vrx
+[8.329s] writing list of installed files to '/home/syauqibilfaqih/penship_ws/src/build/penship_vrx/install.log'
+[8.546s] Invoked command in '/home/syauqibilfaqih/penship_ws/src/penship_vrx' returned '0': PYTHONPATH=/home/syauqibilfaqih/penship_ws/src/build/penship_vrx/prefix_override:/home/syauqibilfaqih/penship_ws/src/install/penship_vrx/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/penship_vrx build --build-base /home/syauqibilfaqih/penship_ws/src/build/penship_vrx/build install --record /home/syauqibilfaqih/penship_ws/src/build/penship_vrx/install.log --single-version-externally-managed

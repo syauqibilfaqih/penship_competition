@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/penship_vrx/penship_vrx.egg-info/PKG-INFO
+writing dependency_links to ../../build/penship_vrx/penship_vrx.egg-info/dependency_links.txt
+writing entry points to ../../build/penship_vrx/penship_vrx.egg-info/entry_points.txt
+writing requirements to ../../build/penship_vrx/penship_vrx.egg-info/requires.txt
+writing top-level names to ../../build/penship_vrx/penship_vrx.egg-info/top_level.txt
+reading manifest file '../../build/penship_vrx/penship_vrx.egg-info/SOURCES.txt'
+writing manifest file '../../build/penship_vrx/penship_vrx.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying package.xml -> /home/syauqibilfaqih/penship_ws/install/penship_vrx/share/penship_vrx
+running install_egg_info
+removing '/home/syauqibilfaqih/penship_ws/install/penship_vrx/lib/python3.10/site-packages/penship_vrx-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/penship_vrx/penship_vrx.egg-info to /home/syauqibilfaqih/penship_ws/install/penship_vrx/lib/python3.10/site-packages/penship_vrx-0.0.0-py3.10.egg-info
+running install_scripts
+Installing stationkeeping script to /home/syauqibilfaqih/penship_ws/install/penship_vrx/lib/penship_vrx
+writing list of installed files to '/home/syauqibilfaqih/penship_ws/build/penship_vrx/install.log'
