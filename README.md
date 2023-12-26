@@ -11,7 +11,23 @@ A part of penship's workspace in VRX 2023 Competition
 ## Setup
 
 Clone this `penship_competition` repository:
-    ```bash
-    $ git clone https://github.com/syauqibilfaqih/penship_competition.git
-    ```
+```bash
+$ git clone https://github.com/syauqibilfaqih/penship_competition.git
+```
+## Usage 
 
+Launch this by running specific task by specific command. For example:
+
+```bash
+$ . accousticpreception.sh
+```
+Go to penship_ws directory, and run this:
+
+``` bash
+$ . install/setup.bash
+```
+Then, run the specific task:
+
+``` bash
+$ ros2 run penship_vrx penship_accousticpreception
+```
